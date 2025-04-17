@@ -30,26 +30,32 @@ const Header = () => {
           <div className="flex   items-center gap-8 px-2 p-1 shadow shadow-pink-400 dark:shadow-pink-400/50 scale-75 lg:scale-100   ">
             <Togglebtn />
             <div className=" flex justify-between items-center lg:gap-1.5 dark:text-white text-pink-400 ">
-              <Link to="www.linkedin.com/in/olamilekan-sunday-849001251">
+              <Link
+                to="https://www.linkedin.com/in/olamilekan-sunday-849001251"
+                target="blank"
+              >
                 {" "}
                 <FontAwesomeIcon
                   icon={faLinkedinIn}
                   className="w-6 cursor-pointer shadow-2xl rounded-full p-0.5 hover:text-black dark:hover:text-pink-500"
                 />
               </Link>
-              <Link to="https://wa.me/qr/RN3GSQ3LS6XRB1 ">
+              <Link to="https://wa.me/qr/RN3GSQ3LS6XRB1 " target="blank">
                 <FontAwesomeIcon
                   icon={faWhatsapp}
                   className="w-6 cursor-pointer shadow-2xl rounded-full p-0.5 hover:text-black dark:hover:text-pink-500"
                 />
               </Link>
-              <Link to="https://www.upwork.com/freelancers/~01739a2b466de3e7fb">
+              <Link
+                to="https://www.upwork.com/freelancers/~01739a2b466de3e7fb"
+                target="blank"
+              >
                 <FontAwesomeIcon
                   icon={faUpwork}
                   className="w-6 cursor-pointer shadow-2xl rounded-full p-0.5 hover:text-black dark:hover:text-pink-500"
                 />
               </Link>
-              <Link to={"https://github.com/delightmayy"}>
+              <Link to={"https://github.com/delightmayy"} target="blank">
                 <FontAwesomeIcon
                   icon={faGithub}
                   className="w-6 cursor-pointer shadow-2xl rounded-full p-0.5 hover:text-black dark:hover:text-pink-500"
