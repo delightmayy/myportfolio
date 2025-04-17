@@ -15,8 +15,7 @@ const Contactsect = () => {
             Let's spark a connection! You can reach me here on find me on
             WhatsApp, or Upwork. Let's chat and see how we can collaborate.
             <Link
-              to="www.linkedin.com/in/olamilekan-sunday-849001251
-"
+              to="www.linkedin.com/in/olamilekan-sunday-849001251"
               className="text-base md:text-lg font-semibold text-pink-500 dark:hover:text-pink-400/50  hover:text-pink-600 tracking-wider"
             >
               {" "}
@@ -48,7 +47,7 @@ const Contactsect = () => {
                 flip
                 className="w-6 cursor-pointer shadow-2xl rounded-full p-0.5"
               />
-              <p> delightedmay@gmail.com</p>
+              <p> delightedmayy@gmail.com</p>
             </Link>
           </div>
         </div>
