@@ -38,7 +38,7 @@ const AboutCardB = ({
               <Link
                 to={livelink}
                 target="blank"
-                className="px-4 lg:px-6 lg:py-2 rounded bg-pink-400/50 hover:cursor-pointer"
+                className="px-4 py-1 lg:px-6 lg:py-2 rounded bg-pink-400/50 hover:cursor-pointer"
               >
                 Go Live
               </Link>
@@ -47,7 +47,7 @@ const AboutCardB = ({
               onClick={() => setViewstate(true)}
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.2 }}
-              className=" px-4 lg:px-6 lg:py-2 rounded bg-pink-400/50 hover:cursor-pointer"
+              className=" px-4 py-1 lg:px-6 lg:py-2 rounded bg-pink-400/50 hover:cursor-pointer"
             >
               View
             </motion.p>

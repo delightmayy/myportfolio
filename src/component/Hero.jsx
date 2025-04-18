@@ -107,7 +107,7 @@ const Hero = () => {
           <motion.div
             initial={{ translateY: 500 }}
             animate={{ translateY: 0 }}
-            transition={{ duration: 2, delay: 1 }}
+            transition={{ duration: 1.8, delay: 0.4 }}
             className="flex-3 py-4  "
           >
             <div className="lg:mt-16 flex flex-col gap-2 items-baseline lg:text-base">

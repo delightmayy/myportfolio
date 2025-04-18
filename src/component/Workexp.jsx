@@ -18,7 +18,7 @@ const Workexp = () => {
           <div className=" p-4 px-6 lg:p-8 border-pink-400 dark:border-pink-300/30 border-b text-justify">
             <div className="flex justify-between gap-4">
               <div className=" flex flex-col py-3 gap-3">
-                <p className=" font-semibold  "> KPA </p>
+                <p className=" font-semibold  "> Starlit Innovations Ltd. </p>
                 <motion.p
                   whileInView={{
                     color: mode
@@ -36,7 +36,7 @@ const Workexp = () => {
                 </motion.p>
               </div>
               <div className=" flex flex-col py-3 gap-3">
-                <p className=" font-semibold ">2023 - 2024</p>
+                <p className=" font-semibold ">2024 - Present</p>
                 <p className="font-semibold">lagos, Nigeria</p>
               </div>
             </div>

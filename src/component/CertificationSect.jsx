@@ -19,6 +19,9 @@ const CertificationSect = () => {
           Certification<span className="text-pink-500">.</span>
         </h1>
         <div className="text-center flex flex-col gap-4 mt-12  lg:text-lg lg:px-3">
+          <p className="text-center text-sm text-pink-500 lg:hidden p-2">
+            click here to view
+          </p>
           <motion.img
             src={width < 768 ? MCERT : certificate}
             alt="certificate from freecode camp"

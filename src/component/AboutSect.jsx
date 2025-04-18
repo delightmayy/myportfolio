@@ -4,7 +4,7 @@ import DataContext from "../context/DataContext";
 import { motion } from "motion/react";
 
 const AboutSect = () => {
-  const { aboutMode, setaboutMode } = useContext(DataContext);
+  const { setaboutMode } = useContext(DataContext);
 
   return (
     <motion.div
@@ -45,7 +45,7 @@ const AboutSect = () => {
             <p className="">
               Beyond coding, I'm driven by a desire to give back to the
               community, which is why I've volunteered with organizations like
-              Black Mental Health Matters.
+              Starlit Innovations Ltd..
             </p>
             <p className="">
               I'm now seeking exciting new opportunities where I can combine my
@@ -60,7 +60,7 @@ const AboutSect = () => {
               alt=""
               initial={{ rotateY: 0 }}
               whileInView={{ rotateY: [0, 20, 0] }}
-              transition={{ duration: 3, delay: 0.3, repeat:Infinity}}
+              transition={{ duration: 3, delay: 0.3, repeat: Infinity }}
               className=" border  h-72 lg:h-full rounded-b-full lg:rounded-bl-none lg:rounded-e-full "
             />
           </div>

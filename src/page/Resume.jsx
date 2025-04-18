@@ -9,7 +9,6 @@ import over3 from "../img/overview3.jpg";
 import { Link } from "react-router";
 import { motion } from "motion/react";
 
-
 const Resume = () => {
   const [overState, setOverstate] = useState(false);
   return (
@@ -37,12 +36,16 @@ const Resume = () => {
               className="w-3 mt-0.5 shadow-2xl"
             />
           </Link>
+
+          <p className="text-center text-sm text-pink-500 lg:hidden p-2 mt-4">
+            hold to preview
+          </p>
         </div>
         {/* COMING TO BUILD VISIBLE CV */}
         <motion.div
-        initial={{ translateY: 500 }}
-        animate={{ translateY: 0 }}
-        transition={{ duration: 1, delay: 1 }}
+          initial={{ translateY: 500 }}
+          animate={{ translateY: 0 }}
+          transition={{ duration: 2, delay: 1 }}
           className={` p-4  gap-y-2 grid grid-cols-1 mx-4 md:grid-cols-2 lg:grid-cols-3 bg-white/45  dark:bg-pink-400/15 md:px-6  lg:p-3  mb-12 ${
             overState ? "grid" : "hidden"
           }`}

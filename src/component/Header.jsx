@@ -11,7 +11,7 @@ import Togglebtn from "../assets/Togglebtn";
 
 const Header = () => {
   return (
-    <header className=" bg-white/85 dark:text-white bg-blend-color dark:bg-black/35 z-10 fixed w-full lg:pe-16 pe-8">
+    <header className=" bg-white/55 dark:text-white bg-blend-color dark:bg-black/35 z-10 fixed w-full lg:pe-16 pe-8">
       <nav
         aria-label="Global"
         className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:py-4  "

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../component/Footer";
 import AboutCardB from "../component/AboutCardB";
 import AboutCardA from "../component/AboutCardA";
@@ -15,15 +15,22 @@ import MKPA from "../img/MKPA.jpg";
 import MTRU from "../img/MTRU.jpg";
 import MVOL from "../img/MVOL.jpg";
 import useWindowSize from "../api/useWindowSize";
+import { useLocation } from "react-router";
 
 const Project = () => {
-  const {width}= useWindowSize()
+  const { width } = useWindowSize();
   const [viewStateA, setViewstateA] = useState(false);
   const [viewStateB, setViewstateB] = useState(false);
   const [viewStateC, setViewstateC] = useState(false);
   const [viewStateD, setViewstateD] = useState(false);
   const [viewStateE, setViewstateE] = useState(false);
   const [viewStateF, setViewstateF] = useState(false);
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div
@@ -58,7 +65,7 @@ const Project = () => {
           }
           img={KPA}
           livelink={"https://kpatech.netlify.app/Portfolio"}
-          siteIMg={width<768? MKPA:KPA}
+          siteIMg={width < 768 ? MKPA : KPA}
           viewState={viewStateA}
           setViewstate={setViewstateA}
         />
@@ -70,7 +77,7 @@ const Project = () => {
           }
           img={FUNNEL}
           livelink={"https://www.thefunnelsphere.com/"}
-          siteIMg={width<768? MFUNL:FUNNEL}
+          siteIMg={width < 768 ? MFUNL : FUNNEL}
           viewState={viewStateB}
           setViewstate={setViewstateB}
         />
@@ -82,7 +89,7 @@ const Project = () => {
           }
           img={BUSS}
           livelink={"https://www.truoba.com/"}
-          siteIMg={width<768? MTRU:BUSS}
+          siteIMg={width < 768 ? MTRU : BUSS}
           viewState={viewStateC}
           setViewstate={setViewstateC}
         />
@@ -94,7 +101,7 @@ const Project = () => {
           }
           img={NGO}
           livelink={"https://volunteeralberta.ab.ca/"}
-          siteIMg={width<768? MVOL:NGO}
+          siteIMg={width < 768 ? MVOL : NGO}
           viewState={viewStateD}
           setViewstate={setViewstateD}
         />
@@ -106,7 +113,7 @@ const Project = () => {
           }
           img={HEALTH}
           livelink={"https://pro-dashboard-project.netlify.app/"}
-          siteIMg={width<768? MHELT:HEALTH}
+          siteIMg={width < 768 ? MHELT : HEALTH}
           viewState={viewStateE}
           setViewstate={setViewstateE}
         />
@@ -118,7 +125,7 @@ const Project = () => {
           }
           img={BRAND}
           livelink={"/"}
-          siteIMg={width<768? MDEV:BRAND}
+          siteIMg={width < 768 ? MDEV : BRAND}
           viewState={viewStateF}
           setViewstate={setViewstateF}
         />
