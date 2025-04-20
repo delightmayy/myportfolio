@@ -13,9 +13,9 @@ const AboutSect = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className=" bg-black/34  dark:bg-black/25 bg-blend-color  px-8 py-8 "
+      className=" bg-gray-100  dark:bg-black/25 bg-blend-color  px-8 py-8 "
     >
-      <div className=" max-w-7xl mx-auto flex flex-col lg:min-h-screen rounded-full dark:bg-red-400/20  bg-white/55 items-center dark:text-white  ">
+      <div className=" max-w-7xl mx-auto flex flex-col lg:min-h-screen rounded-full dark:bg-red-400/20  bg-white items-center dark:text-white  ">
         <h1
           id="aboutSection"
           className="py-3 md:py-4 px-4 lg:py-4 mt-10 md:mt-12  md:my-12 lg:my-8 mb-6 text-3xl lg:text-5xl font-extrabold  tracking-wider dark:text-white border-b-2  border-pink-500 "

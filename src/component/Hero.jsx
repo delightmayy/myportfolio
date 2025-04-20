@@ -10,15 +10,15 @@ const Hero = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 2 }}
-      className=" bg-pink-400/75  dark:bg-[url('../src/img/homebg.jpg')] bg-[url('../src/img/lightbg.jpg')] dark:bg-black/25 bg-blend-color  dark:bg-blend-overlay pt-12 lg:min-h-screen flex-1 flex flex-col items-center p-6 lg:px-8 dark:text-white "
+      className=" bg-gray-100  dark:bg-[url('../src/img/homebg.jpg')] bg[url('../src/img/lightbg.jpg')] dark:bg-black/25 bg-blend-color  dark:bg-blend-overlay pt-12 lg:min-h-screen flex-1 flex flex-col items-center p-6 lg:px-8 dark:text-white "
     >
       <div className=" max-w-7xl mx-auto py-4 lg:mt-8 mt-8  px-2  ">
         {/*///// typing text for large sreen//// */}
 
         {/* //BLUR1// */}
-        <div className="absolute blur-[70px] p-10 md:p-12 md:blur-[100px] md:top-14 lg:p-20 bg-pink-400 top-24 lg:top-18 lg:blur-[130px]"></div>
+        <div className="absolute blur-[70px] p-10 md:p-12 md:blur-[100px] md:top-14 lg:p-20 dark:bg-pink-400 top-24 lg:top-18 lg:blur-[130px]"></div>
         {/* //BLUR2// */}
-        <div className="absolute blur-[105px] p-14 right-10 bottom-4 md:p-18 md:blur-[100px] md:bottom-14 lg:p-20 bg-pink-400  lg:bottom-10 lg:blur-[120px] "></div>
+        <div className="absolute blur-[105px] p-14 right-10 bottom-4 md:p-18 md:blur-[100px] md:bottom-14 lg:p-20 dark:bg-pink-400  lg:bottom-10 lg:blur-[120px] "></div>
 
         <motion.div
           initial={{ translateX: 500 }}

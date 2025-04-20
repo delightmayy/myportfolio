@@ -6,7 +6,7 @@ const Workexp = () => {
   const { mode } = useDarkMode();
 
   return (
-    <div className="dark:bg-gradient-to-b bg-gradient-to-b dark:from-black/55 dark:to-black/80 from-black/34 to-black/20  bg-blend-color p-6 lg:p-8">
+    <div className=" bg-gray-100  dark:bg-black/70  p-6 lg:p-8">
       <div className="max-w-7xl mx-auto flex flex-col lg:min-h-screen   items-center dark:text-white shadow-pink-400 shadow  ">
         {/* ///// HEADING //// */}
 

@@ -30,6 +30,7 @@ const Project = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+
   }, [pathname]);
 
   return (
@@ -42,10 +43,12 @@ const Project = () => {
         setViewstateE(false);
         setViewstateF(false);
       }}
-      className="bg-pink-400/75  dark:bg-[url('../src/img/homebg.jpg')] bg-[url('../src/img/lightbg.jpg')] dark:bg-black/95   dark:bg-blend-overlay pt-12 min-h-screen flex-1 flex flex-col items-center dark:text-white "
+      className= {`bg-gray-100 dark:bg-[url('../src/img/homebg.jpg')] bg[url('../src/img/lightbg.jpg')] dark:bg-black/95   dark:bg-blend-overlay pt-12 min-h-screen flex-1 flex flex-col items-center dark:text-white ${
+              viewStateA|| viewStateB|| viewStateC || viewStateD || viewStateE || viewStateF ? 'blur-none' : 'blur-none'
+            }`}
     >
       {/* ////MINI//// */}
-      <div className=" dark:bg-black bg-white/60 bg-blend-color h-50 lg:h-72 w-full flex flex-col justify-center items-center px-6 md:px-8 font-semibold">
+      <div className=" dark:bg-black bg-gray-100 bg-blend-color h-50 lg:h-72 w-full flex flex-col justify-center items-center px-6 md:px-8 font-semibold">
         <p className="md:mt-8 text-center text-2xl tracking-wider md:text-3xl lg:text-4xl lg:mt-16 lg:mb-8  stroke-1 stroke-pink-400  ">
           Your trusted partners in driving growth and innovation.
         </p>
@@ -53,11 +56,11 @@ const Project = () => {
       {/* ////MAIN//// */}
       <div className="max-w-7xl mx-auto flex flex-col gap-6 md:gap-10 lg:gap-16 mb-20 lg:mb-40  p-6 lg:px-8 ">
         {/* //BLUR1// */}
-        <div className="absolute blur-[70px] p-10 md:p-12 md:blur-[100px] md:top-14 lg:p-20 bg-pink-400 top-24 lg:top-18 left-16 lg:blur-[130px]"></div>
+        <div className="absolute blur-[70px] p-10 md:p-12 md:blur-[100px] md:top-14 lg:p-20 dark:bg-pink-400 top-24 lg:top-18 left-16 lg:blur-[130px]"></div>
         {/* //BLUR2// */}
-        <div className="absolute blur-[105px] p-14 right-10 bottom-4 md:p-18 md:blur-[100px] md:bottom-14 lg:p-20 bg-pink-400  lg:bottom-10 lg:blur-[120px] "></div>
+        <div className="absolute blur-[105px] p-14 right-10 bottom-4 md:p-18 md:blur-[100px] md:bottom-14 lg:p-20 dark:bg-pink-400  lg:bottom-10 lg:blur-[120px] "></div>
 
-        <AboutCardA
+        <AboutCardA 
           number={"01"}
           title={"Corperate/business "}
           text={

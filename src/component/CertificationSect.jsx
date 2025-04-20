@@ -12,7 +12,7 @@ const CertificationSect = () => {
       onMouseEnter={() => {
         scalecontrol.start({ scale: 1, transition: { duration: 0.8 } });
       }}
-      className="bg-gradient-to-b dark:from-black/80 dark:to-black from-black/20 to-white/75  bg-blend-color p-6 lg:p-8 "
+      className="dark:bg-black bg-gray-100  bg-blend-color  p-6 lg:p-8 "
     >
       <div className="max-w-7xl mx-auto flex flex-col lg:min-h-screen   items-center dark:text-white mb-28 lg:mb-0">
         <h1 className=" lg:mt-20 mt-3 p-3 md:py-4 mb-3 lg:mb-8 text-3xl lg:text-5xl font-extrabold  tracking-wider dark:text-white border-b-2 border-pink-500 capitalize  ">

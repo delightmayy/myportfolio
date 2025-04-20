@@ -5,7 +5,7 @@ import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 const Contactsect = () => {
   return (
-    <div className="dark:bg-black bg-gradient from-white/50 to-black/10 bg-blend-color p-6 lg:p-8 ">
+    <div className="dark:bg-black bg-gray-100 bg-blend-color p-6 lg:p-8 ">
       <div className="max-w-7xl mx-auto flex flex-col lg:min-h-screen   items-center dark:text-white mb-28 lg:mb-0">
         <h1 className=" lg:mt-20 mt-10 p-3 md:py-4 mb-3 lg:mb-8 text-3xl lg:text-5xl font-extrabold  tracking-wider dark:text-white border-b-2 border-pink-500 capitalize  ">
           contact<span className="text-pink-500">.</span>

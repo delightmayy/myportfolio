@@ -21,7 +21,7 @@ const Home = () => {
   }, [hash]);
 
   return (
-    <div className="bg-white/60 dark:bg-black/10 bg-blend-color dark:bg-[url('./img/homebg.jpg')]  bg-[url('./img/bg.jpg')]">
+    <div className="bg-white/60 dark:bg-black/10 bg-blend-color dark:bg-[url('./img/homebg.jpg')]  bg[url('./img/bg.jpg')]">
       <Hero />
       <div ref={sectionRef}>
         <AboutSect />
