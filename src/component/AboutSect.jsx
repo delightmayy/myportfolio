@@ -62,7 +62,7 @@ const AboutSect = () => {
               initial={{ rotateY: 0 }}
               whileInView={{ rotateY: [0, 20, 0] }}
               transition={{ duration: 3, delay: 0.3, repeat: Infinity }}
-              className=" shadow-lg shadow-black/50  h-auto w-100 md:w-100 md:mt-8 lg:w-500 lg:h-120 xl:h-11/12  rounded-b-full lg:rounded-bl-none lg:rounded-e-full dark:bg-black/60 dark:shadow dark:shadow-white "
+              className=" shadow-lg shadow-black/50  h-auto w-100 md:w-100 md:mt-8 lg:w-500 lg:h-120 xl:h-11/12  rounded-b-full lg:rounded-bl-none lg:rounded-e-full dark:bg-black/60 bg-black/5  dark:shadow dark:shadow-white "
             />
           </div>
         </div>
