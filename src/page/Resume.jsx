@@ -43,9 +43,9 @@ const Resume = () => {
         </div>
         {/* COMING TO BUILD VISIBLE CV */}
         <motion.div
-          initial={{ translateY: 500 }}
+          initial={{ translateY: 300 }}
           animate={{ translateY: 0 }}
-          transition={{ duration: 2, delay: 1 }}
+          transition={{ duration: 1.5 }}
           className={` p-4   gap-y-2 grid grid-cols-1 mx-4 md:grid-cols-2 lg:grid-cols-3 bg-white  dark:bg-pink-400/15 md:px-6  lg:p-3  mb-12 ${
             overState ? "grid" : "hidden"
           }`}
