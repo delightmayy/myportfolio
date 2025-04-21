@@ -16,7 +16,7 @@ const AboutCardB = ({
 }) => {
   return (
     <>
-      <div className=" relative  md:grid md:grid-cols-8 p-4 md:p-8 bg-white dark:bg-pink-400/20  dark:text-black ">
+      <div className=" relative  md:grid md:grid-cols-8 p-4 md:p-8 bg-white dark:bg-black/35  dark:text-black ">
         <div className=" bg-white dark:bg-white/70 rounded-lg  shadow-inner shadow-slate-400 flex flex-col  md:col-span-5 md:pe-16 p-4 lg:ps-8 gap-4 md:h-[450px]">
           <h1 className="text-center md:text-start text-8xl font-bold dark:text-white text-pink-400/50">
             {number}
@@ -27,7 +27,7 @@ const AboutCardB = ({
           <p className="text-center text-sm md:text-base md:text-start md:pe-8 ">
             {text}
           </p>
-          <div className="flex justify-center items-center flex-wrap gap-6 md:gap-8 mt-2 pb-12  md:mt-0 lg:mt-12 md:pb-24 md:me-6" >
+          <div className="flex justify-center items-center flex-wrap gap-6 md:gap-8 mt-2 pb-12  md:mt-0 lg:mt-12 md:pb-24 md:me-6">
             <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.2 }}
@@ -59,7 +59,7 @@ const AboutCardB = ({
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.8 }}
-          className={`   h-72 md:h-screen  p-4 absolute -top-20 right-1 bg-white/70 dark:bg-pink-400/30 z-20 ${
+          className={`   h-72 md:h-screen  p-4 absolute -top-20 right-1 bg-white/70 dark:bg-black/55 z-20 ${
             viewState ? "block" : "hidden"
           }`}
         >

@@ -14,7 +14,7 @@ const AboutCardB = ({
 }) => {
   return (
     <>
-      <div className=" relative flex flex-col-reverse md:grid md:grid-cols-8 p-4 md:p-8 bg-white dark:bg-pink-400/20  dark:text-black ">
+      <div className=" relative flex flex-col-reverse md:grid md:grid-cols-8 p-4 md:p-8 bg-white  dark:bg-black/35   dark:text-black ">
         <img
           src={img}
           alt=""
@@ -56,7 +56,7 @@ const AboutCardB = ({
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.8 }}
-            className={` h-72 md:h-screen p-4 absolute -top-20 left-1 bg-white/70 dark:bg-pink-400/30 z-20 ${
+            className={` h-72 md:h-screen p-4 absolute -top-20 left-1 bg-white/70  dark:bg-black/55  z-20 ${
               viewState ? "block" : "hidden"
             }`}
           >
