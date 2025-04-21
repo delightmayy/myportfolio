@@ -36,8 +36,8 @@ const Workexp = () => {
                 </motion.p>
               </div>
               <div className=" flex flex-col py-3 gap-3">
-                <p className=" font-semibold ">2024 - Present</p>
-                <p className="font-semibold">lagos, Nigeria</p>
+                <p className=" font-semibold "> Present </p>
+                <p className="font-semibold">Harrogate, Britain</p>
               </div>
             </div>
             <p className="tracking tracking-wider mt-4 text-center md:text-start">
