@@ -30,7 +30,6 @@ const Project = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-
   }, [pathname]);
 
   return (
@@ -43,9 +42,16 @@ const Project = () => {
         setViewstateE(false);
         setViewstateF(false);
       }}
-      className= {`bg-gray-100 dark:bg-[url('../src/img/homebg.jpg')] bg[url('../src/img/lightbg.jpg')] dark:bg-black/95   dark:bg-blend-overlay pt-12 min-h-screen flex-1 flex flex-col items-center dark:text-white ${
-              viewStateA|| viewStateB|| viewStateC || viewStateD || viewStateE || viewStateF ? 'blur-none' : 'blur-none'
-            }`}
+      className={`bg-gray-100 dark:bg-[url('../src/img/homebg.jpg')] bg[url('../src/img/lightbg.jpg')] dark:bg-black/95   dark:bg-blend-overlay pt-12 min-h-screen flex-1 flex flex-col items-center dark:text-white ${
+        viewStateA ||
+        viewStateB ||
+        viewStateC ||
+        viewStateD ||
+        viewStateE ||
+        viewStateF
+          ? "backdrop-blur-lg"
+          : "blur-none"
+      }`}
     >
       {/* ////MINI//// */}
       <div className=" dark:bg-black bg-gray-100 bg-blend-color h-50 lg:h-72 w-full flex flex-col justify-center items-center px-6 md:px-8 font-semibold">
@@ -60,7 +66,7 @@ const Project = () => {
         {/* //BLUR2// */}
         <div className="absolute blur-[105px] p-14 right-10 bottom-4 md:p-18 md:blur-[100px] md:bottom-14 lg:p-20 dark:bg-pink-400  lg:bottom-10 lg:blur-[120px] "></div>
 
-        <AboutCardA 
+        <AboutCardA
           number={"01"}
           title={"Corperate/business "}
           text={
@@ -132,8 +138,8 @@ const Project = () => {
           viewState={viewStateF}
           setViewstate={setViewstateF}
         />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };

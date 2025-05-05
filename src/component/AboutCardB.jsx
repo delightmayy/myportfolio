@@ -14,7 +14,7 @@ const AboutCardB = ({
 }) => {
   return (
     <>
-      <div className=" relative flex flex-col-reverse md:grid md:grid-cols-8 p-4 md:p-8 bg-white  dark:bg-black/35   dark:text-black ">
+      <div className=" relative flex flex-col-reverse md:grid md:grid-cols-8 p-4 md:p-8 bg-white  dark:bg-black/35   dark:text-black md:scale-95 lg:scale-100 ">
         <img
           src={img}
           alt=""
@@ -56,14 +56,14 @@ const AboutCardB = ({
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.8 }}
-            className={` h-72 md:h-screen p-4 absolute -top-20 left-1 bg-white/70  dark:bg-black/55  z-20 ${
+            className={` min-h-screen w-full backdrop-blur-2xl  md:min-h-screen p-4 absolute  left-1 md:-top-20 top-0 pb-16 md:pb-6 bg-white/70  dark:bg-black/55  z-20 ${
               viewState ? "block" : "hidden"
             }`}
           >
             <motion.img
               src={siteIMg}
               alt="site flash preview"
-              className="w-100 h-auto md:w-220 lg:260 mx-auto my-auto"
+              className="w-100 h-auto backdrop-blur-2xl md:w-220 lg:260 mx-auto my-auto"
             />
           </motion.div>
         </div>

@@ -28,7 +28,7 @@ const Hero = () => {
         >
           <ReactTyped
             className="dark:text-pink-400 text-pink-600  text-nowrap font-stretch-extra-expanded "
-            strings={["Personal Branding"]}
+            strings={["Corperate/ Business"]}
             typeSpeed={300}
             loop
             backSpeed={50}
@@ -46,7 +46,7 @@ const Hero = () => {
           />{" "}
           <ReactTyped
             className="dark:text-pink-400 text-pink-600   text-nowrap font-stretch-extra-expanded "
-            strings={["Corperate/ Business"]}
+            strings={["Web-3"]}
             typeSpeed={300}
             loop
             backSpeed={40}
@@ -78,7 +78,7 @@ const Hero = () => {
               strings={[
                 "Personal Branding",
                 "Corperate/ Business",
-                "Healthcare",
+                "Healthcare","web-3",
                 "Non-profit Organization",
               ]}
               typeSpeed={300}
@@ -125,10 +125,8 @@ const Hero = () => {
               </div>
 
               <h3 className="lg:mt-4 lg:leading-9 tracking-wide text-center leading-8 lg:text-justify">
-                As a seasoned FrontEnd Developer with three years of experience,
                 I transform online presence and craft digital solutions that
-                captivate audiences. Specializing in healthcare, personal
-                branding, and business websites for corporates and NGOs, I bring
+                captivate audiences. Specializing in healthcare, web3, personal branding, and business websites for corporates and NGOs, I bring
                 ideas to life through innovative and user-centric design. Join
                 me on this exciting journey of turning concepts into stunning
                 digital experiences that drive results. Let's collaborate to

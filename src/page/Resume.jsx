@@ -16,7 +16,7 @@ const Resume = () => {
       <div className="bg-gray-100 dark:bg-[url('../src/img/homebg.jpg')] bg[url('../src/img/lightbg.jpg')] dark:bg-black/95 bg-blend-color  dark:bg-blend-overlay pt-12 min-h-screen flex-1 flex flex-col  p-6 lg:px-8 dark:text-white ">
         <div
           onMouseOver={() => setOverstate(true)}
-          onMouseOut={() => setOverstate(false)}
+          
           className="max-w-7xl mx-auto py-8 lg:mt-8 mt-8  px-2 h-11/12 "
         >
           {/* //BLUR1// */}
@@ -28,9 +28,9 @@ const Resume = () => {
           <Link
             to={sss}
             target="blank"
-            className="mt-8 lg:mt-24 flex gap-3 items-center justify-center md:tracking-wider px-4  md:px-6 py-0.5 rounded-3xl bg-pink-500/55 font-semibold cursor-pointer"
+            className="mt-8 lg:mt-10 flex gap-3 items-center justify-center md:tracking-wider px-4  md:px-6 py-0.5 rounded-3xl bg-pink-500/55 font-semibold cursor-pointer"
           >
-            <p className="">Download cv</p>
+            <p className="p-1">Preview cv</p>
             <FontAwesomeIcon
               icon={faDownload}
               className="w-3 mt-0.5 shadow-2xl"
@@ -45,7 +45,7 @@ const Resume = () => {
         <motion.div
           initial={{ translateY: 300 }}
           animate={{ translateY: 0 }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 2, delay:0.5 }}
           className={` p-4   gap-y-2 grid grid-cols-1 mx-4 md:grid-cols-2 lg:grid-cols-3 bg-white  dark:bg-pink-400/15 md:px-6  lg:p-3  mb-12 ${
             overState ? "grid" : "hidden"
           }`}

@@ -38,21 +38,13 @@ const AboutSect = () => {
               crafting amazing digital experiences.
             </p>
             <p className="">
-              With two years of experience, I've worked with diverse teams to
-              build innovative products, including personal branding websites,
-              corporate business solutions, healthcare platforms, NGO websites,
-              and file management systems.
+            I've worked with diverse teams to build innovative products, including personal branding websites, corporate business solutions, healthcare platforms, NGO websites, file management systems, and Web3 applications with functionalities like wallet integration, smart contract development, and decentralized data storage.
             </p>
             <p className="">
-              Beyond coding, I'm driven by a desire to give back to the
-              community, which is why I've volunteered with organizations like
-              Starlit Innovations Ltd..
+            Beyond coding, I'm driven by a desire to give back to the community, which is why I've volunteered with organizations like Starlit Innovations Ltd...
             </p>
             <p className="">
-              I'm now seeking exciting new opportunities where I can combine my
-              love for code with real-world problem-solving. If you've got a
-              project or role that aligns with my skills and passions, let's
-              connect and build something awesome together!"
+            I'm now seeking exciting new opportunities where I can combine my love for code with real-world problem-solving. If you've got a project or role that aligns with my skills and passions, let's connect and build something awesome together.
             </p>
           </motion.div>
           <div className="flex-2  mx-auto pb-0 ">
