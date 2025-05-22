@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 import { motion } from "motion/react";
+import Modal from "./Modal";
 
 const AboutCardB = ({
   number,
@@ -52,7 +53,7 @@ const AboutCardB = ({
               View
             </motion.p>
           </div>
-          <motion.div
+          {/* <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.8 }}
@@ -65,7 +66,18 @@ const AboutCardB = ({
               alt="site flash preview"
               className="w-100 h-auto backdrop-blur-2xl md:w-220 lg:260 mx-auto my-auto"
             />
-          </motion.div>
+          </motion.div> */}
+          <Modal
+            isOpen={viewState ? true : false}
+            onClose={"setViewstate(false)"}
+          >
+            {" "}
+            <motion.img
+              src={siteIMg}
+              alt="site flash preview"
+              className=" backdrop-blur-2xl h-auto md:w-220 lg:300 mx-auto my-auto " 
+            />
+          </Modal>
         </div>
       </div>
     </>

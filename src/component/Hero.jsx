@@ -135,9 +135,9 @@ const Hero = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ translateX: -700 }}
+            initial={{ translateX: -200 }}
             animate={{ translateX: 0 }}
-            transition={{ duration: 3, delay: 1 }}
+            transition={{ duration: 1, delay: 2 }}
             className=" flex-2 lg:flex -mt-2  md:mt-0 flex-col  justify-center  py-2"
           >
             <DotLottieReact

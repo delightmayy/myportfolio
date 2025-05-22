@@ -49,7 +49,7 @@ const Project = () => {
         viewStateD ||
         viewStateE ||
         viewStateF
-          ? "backdrop-blur-lg"
+          ? "backdrop-blur-lgs"
           : "blur-none"
       }`}
     >
@@ -74,7 +74,7 @@ const Project = () => {
           }
           img={KPA}
           livelink={"https://kpatech.netlify.app/Portfolio"}
-          siteIMg={width < 768 ? MKPA : KPA}
+          siteIMg={ width < 768 ? MKPA :  KPA}
           viewState={viewStateA}
           setViewstate={setViewstateA}
         />

@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router";
 import Home from "./page/Home";
 import Project from "./page/Project";
@@ -6,10 +7,23 @@ import { DataProvider } from "./context/DataContext";
 import Header from "./component/Header";
 import SideMenu from "./component/SideMenu";
 import ErrorPage from "./page/Error";
-
-DataProvider;
+import Preloader from "./component/PreLoader";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading (e.g. wait for fonts, data, or a timeout)
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000); // 2 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Preloader />;
+  }
   return (
     <DataProvider>
       <div className="flex ">

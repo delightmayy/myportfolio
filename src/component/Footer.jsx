@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
-    <div className=" bg-white/45 dark:text-white bg-blend-color dark:bg-black/95 z-20 fixed bottom-0 w-full lg:pe-16 pe-8 py-4 lg:py-5 text-sm ">
+    <div className=" bg-white/45 dark:text-white bg-blend-color dark:bg-black/80 z-20 fixed bottom-0 w-full lg:pe-16 pe-8 py-4 lg:py-5 text-sm ">
       <div className="flex gap-2 items-center justify-center">
         <Link
           to="mailto:delightedmay@gmail.com"

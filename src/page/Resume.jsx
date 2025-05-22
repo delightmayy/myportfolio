@@ -3,9 +3,9 @@ import Footer from "../component/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import sss from "../img/devlightCV.pdf";
-import over1 from "../img/overview1.jpg";
+/* import over1 from "../img/overview1.jpg";
 import over2 from "../img/overview2.jpg";
-import over3 from "../img/overview3.jpg";
+import over3 from "../img/overview3.jpg"; */
 import { Link } from "react-router";
 import { motion } from "motion/react";
 
@@ -42,7 +42,7 @@ const Resume = () => {
           </p>
         </div>
         {/* COMING TO BUILD VISIBLE CV */}
-        <motion.div
+       {/*  <motion.div
           initial={{ translateY: 300 }}
           animate={{ translateY: 0 }}
           transition={{ duration: 2, delay:0.5 }}
@@ -53,8 +53,9 @@ const Resume = () => {
           <img src={over1} alt="my cv overview" className="h-98 mx-auto" />
           <img src={over2} alt="my cv overview" className="h-98 mx-auto" />
           <img src={over3} alt="my cv overview" className="h-98 mx-auto" />
-        </motion.div>
+        </motion.div> */}
       </div>
+      
       <Footer />
     </>
   );
